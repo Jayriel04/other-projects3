@@ -1,0 +1,169 @@
+.image {
+    background-image: url(b.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: rgb(145, 11, 145);
+    color: #fff;
+    padding: 20px;
+    width: 198.2vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+  
+header h1 {
+    margin: 0;
+}
+  
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+header nav ul li {
+    display: inline-block;
+    margin-right: 50px;
+}
+  
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+.search-container {
+    display: flex;
+    align-items: center;
+}
+  
+#search-input {
+    padding: 15px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+  
+#search-button {
+    padding: 15px 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.welcome {
+    position: absolute;
+    top: 25vh;
+    bottom: 25vh;
+    right: 50vh;
+    left: 50vh;
+    text-align: center;
+}
+
+.welcome h1 {
+    background: linear-gradient(45deg, rgb(240, 238, 240), rgb(96, 7, 104), rgb(238, 234, 238));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 80px;
+}
+
+.welcome h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    background: linear-gradient(45deg, rgb(112, 25, 112), rgb(96, 7, 104), rgb(221, 22, 221));
+    border: 2px solid black;
+    border-radius: 10px;
+    color: #fff;
+    padding: 30px;
+    width: 20vh;
+    position: absolute;
+    left: 35%;
+}
+
+.h2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.context, p {
+    position: absolute;
+    text-align: left;
+    bottom: 50px;
+    top: 50px;
+    right: 50px;
+    left: 50px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.list {
+    position: absolute;
+    text-align: left;
+    bottom: 350px;
+    top: 350px;
+    right: 50px;
+    left: 50px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.product {
+    position: absolute;
+    justify-content: space-between;
+    display: flex;
+    width: 10px;
+    height: 150px;
+    top: 300px;
+    bottom: 300px;
+    left: 120px;
+    right: 120px;
+    gap: 10px;
+
+}
+
+#contact {
+    padding: 20px;
+    background-image: url(image1.jpg);
+    height: 75vh;
+    width: 99%;
+    color: #fff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.between {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.location, .contact, .address, .website {
+    margin-bottom: 20px;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.location i, .contact i, .address i , .website i {
+    margin-right: 10px;
+    color: rgb(143, 25, 143);
+}
+  
+.location span, .contact span, .address span , .website span{
+    color: #fff;
+}
+
+.web {
+    color: #fff;
+}
